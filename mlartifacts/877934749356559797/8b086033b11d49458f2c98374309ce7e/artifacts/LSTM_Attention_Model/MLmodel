@@ -1,0 +1,19 @@
+artifact_path: LSTM_Attention_Model
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.9.18
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.15.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 2.5.0
+model_uuid: a19791c10f42449288db24ea5628a3df
+run_id: 8b086033b11d49458f2c98374309ce7e
+utc_time_created: '2023-12-15 09:56:10.091538'

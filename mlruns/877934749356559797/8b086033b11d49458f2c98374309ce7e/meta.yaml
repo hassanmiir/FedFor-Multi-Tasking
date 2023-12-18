@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/877934749356559797/8b086033b11d49458f2c98374309ce7e/artifacts
+end_time: 1702634183329
+entry_point_name: ''
+experiment_id: '877934749356559797'
+lifecycle_stage: active
+run_id: 8b086033b11d49458f2c98374309ce7e
+run_name: salty-fly-746
+run_uuid: 8b086033b11d49458f2c98374309ce7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702634127264
+status: 3
+tags: []
+user_id: mir.hassan

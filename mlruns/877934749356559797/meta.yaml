@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/877934749356559797
+creation_time: 1702634102821
+experiment_id: '877934749356559797'
+last_update_time: 1702634102821
+lifecycle_stage: active
+name: LSTM_with_Attention_Forecasting
