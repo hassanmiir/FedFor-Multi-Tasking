@@ -7,7 +7,7 @@ Repository: https://github.com/hassanmiir/FedFor-Multi-Tasking
 
 Overview
 
-This work proposes DualFL, a federated multi-task learning framework with dual attention mechanisms for smart building applications.
+This work proposes  a federated multi-task learning framework with dual attention mechanisms for smart building applications.
 DualFL integrates:
 
 Feature-level attention to identify relevant sensor signals
@@ -82,32 +82,11 @@ Place your sensor datasets inside the Datasets/ folder.
 Scripts refer to D1 and D2 datasets. Make sure your files match those names or update the paths in each script.
 Typical datasets: temperature sensors, environmental monitoring, time-series forecasting for smart buildings.
 
-Running Experiments
-
-DualFL (proposed method)
 
 python dualfl.py
 
 
-Baselines: LSTM / GRU with attention (single dataset)
 
-# LSTM + Attention (Dataset D1)
-python lstm_attention_d1.py
-
-# GRU + Attention (Dataset D1, corrected)
-python Fedfor_GRU_Attention_D1_c.py
-
-# Plain GRU (Datasets D1 & D2)
-python Fedfor_GRU_D1.py
-python Fedfor_GRU_D2.py
-
-# Plain LSTM (Datasets D1 & D2)
-python Fedfor_LSTM_D1.py
-python Fedfor_LSTM_D2.py
-
-# Generic GRU/LSTM with attention
-python gru_attention.py
-python lstm_with_attention.py
 
 
 Jupyter notebooks
